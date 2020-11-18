@@ -669,6 +669,27 @@ Use as a broad example that includes most props available to card.
 </Card>
 ```
 
+### Card with flushed sections
+
+<!-- example-for: web -->
+
+Use when you need further control over the spacing of your card sections.
+
+```jsx
+<Card title="Online store dashboard">
+  <Card.Section title="Reports">
+    <p>View a summary of your online store’s performance.</p>
+  </Card.Section>
+
+  <Card.Section title="Summary" flush>
+    <p>
+      View a summary of your online store’s performance, including sales,
+      visitors, top products, and referrals.
+    </p>
+  </Card.Section>
+</Card>
+```
+
 ---
 
 ## Related components
